@@ -1,0 +1,19 @@
+.contact {
+    margin: 0 auto;
+    padding-top: 50px;
+    max-width: 60vw;
+    max-height: 285px;
+    align-items: center;
+}
+
+.contact h1 {
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-weight: 500;
+    color:#5A5959;
+ 
+}
