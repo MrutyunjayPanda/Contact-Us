@@ -1,10 +1,13 @@
 import styles from "./Buttons.module.css";
 
 function Button(props) {
-  const { isOutline, icon, text } = props;
+  const { isOutline, icon, text, ...rest } = props;
   return (
     <>
-      <button className={isOutline ? styles.outlinebtn : styles.primarybtn}>
+      <button
+        {...rest}
+        className={isOutline ? styles.outlinebtn : styles.primarybtn}
+      >
         {icon}
         {text}
       </button>
